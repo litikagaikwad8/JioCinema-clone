@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.box
+{
+    
+         width: 100%;
+         padding: 20px ;
+        
+         
+         justify-content: center;
+         
+}
+.box .box1 
+{
+    background-color: rgb(39, 14, 63);
+}
+.box2{
+    background-color: rgb(44, 12, 75);
+    
+}
+ .box1 .fornt{
+    display: flex;
+    padding: 20px 2px;
+    
+
+}
+body
+{
+    background-color: rgb(45, 20, 68);
+}
+.fornt img{
+    width: 100%;
+    height: 100%;
+}
+.box .box2 .content .tit h3{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+  
+}
+.part{
+    border: 2px solid rgb(82, 24, 82);
+    border-radius: 20px;
+    align-content: center;
+    padding: 30px;
+    background-color: rgb(82, 24, 82);
+}
+.part .tit1
+{
+    color: white;
+    
+}
+.both{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part .spe p
+{
+    color: black ;
+    border: 1px solid goldenrod;
+    border-radius: 10px ;
+    height: 23px;
+    width: 150px;
+    background-color: peachpuff;
+    padding: 2px 6px;
+    font-size:medium;
+    
+    
+    
+    
+}
+.part .list{
+    padding: 10px;
+}
+
+.part .list ul  li
+{
+    color: white;
+    padding: 3px;
+}
+.part .both2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.part .both2 .spe1
+{
+    padding: 25px;
+}
+.part  .both2 .spe1 p
+{
+    border: 1px solid rgb(201, 166, 80);
+    padding: 2px 6px;
+    width: 80px;
+    color:rgb(201, 166, 80);
+    
+}
+.both2 .price
+{
+    font-size: larger;
+    color: wheat;
+    padding:  0 20px 30px ;
+    
+}
+.both3
+{
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+   
+    
+
+}
+.both3 .cut
+{
+    color:wheat ;
+}
+.both3 .cut2 
+{
+    color:rgb(201, 166, 80) ;
+}
+.card 
+{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   gap: 20px;
+
+}
+.navbar .main
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+

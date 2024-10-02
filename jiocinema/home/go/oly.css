@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+:root{
+    --grey:var(--grey);
+    --black:var(--black);
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background: pink;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgb(223, 98, 119);
+}
+.main-div
+{
+     /* display:flex ;  */
+     background-color: rgb(36, 27, 31);
+}
+.header
+{
+    width: 100%;
+    transition: .4s;
+    box-shadow: 1px 3px 7px #0001;
+    display:flex ; 
+}
+
+.header .nav-bar-1
+{
+    width: 100%;
+     /* background-color:rgb(0, 0, 0);  */
+    padding: 5px 0;
+}
+.container
+{
+    padding: 0 10%;
+    display: flex;
+   
+    
+}
+.header .nav-bar-1 .Container
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ min-height: 40px; 
+ 
+}
+  .header .nav-bar-1 .logo img
+{
+    align-items: flex-start;
+    padding-left: 10px;
+}  
+.header .nav-bar-1 .slogo a
+{
+    border: 2px solid rgb(211, 53, 171);
+    width: 130px;
+    color:rgb(53, 92, 211);
+    border-radius: 20px;
+    position: absolute;
+       left: 50px;
+       top: 15px;
+       text-decoration: none;
+       
+    
+}
+ .header .nav-bar-1 .Search
+{
+    position: absolute;
+       right: 40px;
+       color: white;
+       
+
+}
+.header .nav-bar-1 .Search input
+{
+    border: none;
+    background-color: rgb(57, 46, 50);
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.header .nav-bar-1 .profile
+{
+    position: absolute;
+       right:10px;
+       color: rgb(227, 7, 117);
+}
+ .nav-bar-2  .nav
+ {
+    display: flex;
+    list-style: none;
+    padding: 20px 10px ;
+   justify-content: space-between;
+   
+
+ }
+ .nav-bar-2 .nav li a
+ {
+    text-decoration: none;
+    padding:   10px;
+    color: rgb(183, 165, 165);
+    font-size: larger;
+    transition: .3s;
+}
+.nav-bar-2 .nav li a:hover
+{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color:whitesmoke;
+}
+.card{
+    background-color:rgb(36, 27, 31)
+}
+.card .text h2
+{
+    text-align: center;
+    padding: 10px;
+    color: rgb(233, 212, 172);
+    
+}
+.card .card1{
+    display: flex;
+    /* padding: 10px; */
+    gap: 10px;
+    align-content:center;
+    
+}
+.card .card1 .card2 img{
+
+    flex: 1 1 5rem;
+    height: 250px;
+    border: 1px solid var(--black);
+    overflow: hidden;
+    border-radius: 8px;
+     position: relative; 
+     
+}
+
+  .caed .card1 .card2{
+       width: 100%;
+       height: 100%;
+ } 
+
+ .card .card1 .card2 img{
+      width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      transition: .3s;
+ } 
+ .field
+ {
+    padding: 20px 20px;
+    background-color: rgb(36, 27, 31);
+    
+    
+ }
+ .field .tit h2
+ {
+    color: aliceblue;
+    padding: 10px;
+    color: rgb(233, 212, 172);
+    
+
+ }
+ /* .field .nav
+ {
+    list-style: none;
+    display: flex;
+    padding: 30px 10px;
+    text-decoration: none;
+   
+    font-size: larger;
+    transition: .3s;
+    justify-content: space-between;
+    font-size:20px  ;
+    
+    
+} */
+/* .field .lang .nav :hover
+{
+    color: white;
+    text-decoration: overline palevioletred;
+} */
+
+.field .part 
+{
+    display: flex;
+    gap: 10px;
+   
+    
+
+}
+.field .part  .part1
+{
+    display: flex;
+    gap: 10px;
+    align-content:center;
+
+    
+
+}
+
+
+
+.field .part1 .part2{
+    width: 100%;
+    height: 100%;
+    
+}
+.field  .part .part1 .part2  img{
+    flex: 1 1 5rem;
+    height: 350px;
+    border: 1px solid var(--black);
+    overflow: hidden;
+    border-radius: 8px;
+     position: relative; 
+}
+.part1 .part2 
+{
+    width: 100%;
+    height: 100%;
+}
+.field .part1 .part2 img{
+    width: 100%;
+    max-height: 100%;
+    transition: .3s;
+    object-fit: cover;
+}
+.boat .boat1
+{
+    display: flex;
+    color: rgb(118, 116, 116);
+    justify-content: space-between;
+    padding:  0 20px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(1, 1, 1) ;
+    align-content: center;
+    
+
+}
+.boat .boat1 .sport
+
+ .boat{
+    position: sticky;
+    bottom: 0px;
+}
+.boat1 .home:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+
+.boat1 .home:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .sport:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .icon:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .movies:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .tv:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+ 

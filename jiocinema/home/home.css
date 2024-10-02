@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+:root{
+    --grey:var(--grey);
+    --black:var(--black);
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background: pink;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgb(223, 98, 119);
+}
+.main-div
+{
+     /* display:flex ;  */
+     background-color: rgb(224, 190, 201);
+}
+.header
+{
+    width: 100%;
+    transition: .4s;
+    box-shadow: 1px 3px 7px #0001;
+    display:flex ; 
+}
+
+.header .nav-bar-1
+{
+    width: 100%;
+     /* background-color:rgb(0, 0, 0);  */
+    padding: 5px 0;
+}
+.container
+{
+    padding: 0 10%;
+    display: flex;
+   
+    
+}
+.header .nav-bar-1 .Container
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ min-height: 40px; 
+ 
+}
+  .header .nav-bar-1 .logo img
+{
+    align-items: flex-start;
+    padding-left: 10px;
+}  
+.header .nav-bar-1 .slogo a 
+{
+    border: 2px solid rgb(211, 53, 171);
+    width: 130px;
+    
+    border-radius: 20px;
+    
+    position: absolute;
+       left: 50px;
+       top: 15px;
+       text-decoration: none;
+       
+    
+}
+
+ .header .nav-bar-1 .Search
+{
+    position: absolute;
+       right: 40px;
+       
+
+}
+.header .nav-bar-1 .Search input
+{
+    border: none;
+    background-color: gainsboro;
+    height: 20px;
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+    color: palevioletred;
+    padding: 10px;
+}
+
+.header .nav-bar-1 .profile
+{
+    position: absolute;
+       right:10px;
+       color: rgb(227, 7, 117);
+}
+ .nav-bar-2  .nav
+ {
+    display: flex;
+    list-style: none;
+    padding: 20px 10px ;
+   justify-content: space-between;
+   
+
+ }
+ .nav-bar-2 .nav li a
+ {
+    text-decoration: none;
+    padding:   10px;
+    color: black;
+    font-size: larger;
+    transition: .3s;
+}
+.nav-bar-2 .nav li a:hover
+{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: grey;
+}
+.card{
+    background-color: rgb(224, 190, 201)
+}
+.card .text
+{
+    text-align: center;
+    padding: 10px;
+    
+}
+.card .card1 {
+    display: flex;
+    /* padding: 10px; */
+    gap: 10px;
+    align-content:center;
+    
+    
+}
+.card .card1 .card2:hover
+{
+    transform: scale(1.02);
+    
+    
+    
+
+}
+.card .card1 .card2 img{
+
+    flex: 1 1 5rem;
+    height: 250px;
+    border: 1px solid var(--black);
+    overflow: hidden;
+    border-radius: 8px;
+     position: relative; 
+     
+}
+
+  .card .card1 .card2{
+       width: 100%;
+       height: 100%;
+ } 
+
+ .card .card1 .card2 img{
+      width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      transition: .3s;
+ } 
+ .field
+ {
+    padding: 20px 20px;
+    background-color: rgb(224, 190, 201);
+    
+    
+ }
+ .field .tit
+ {
+    color: aliceblue;
+    
+
+ }
+ 
+ .field .nav
+ {
+    list-style: none;
+    display: flex;
+    padding: 30px 10px;
+    text-decoration: none;
+   
+    font-size: larger;
+    transition: .5s;
+    justify-content: space-between;
+    font-size:20px  ;
+    
+    
+}
+.field .lang .nav :hover
+{
+    color: white;
+    text-decoration: overline palevioletred;
+}
+
+.field .part 
+{
+    display: flex;
+    gap: 10px;
+   
+    
+
+}
+.field .part  .part1
+{
+    display: flex;
+    gap: 10px;
+    align-content:center;
+
+    
+
+}
+
+
+
+.field .part1 .part2{
+    width: 100%;
+    height: 100%;
+    
+}
+.field  .part .part1 .part2  img{
+    flex: 1 1 5rem;
+    height: 350px;
+    border: 1px solid var(--black);
+    overflow: hidden;
+    border-radius: 8px;
+     position: relative; 
+}
+.part1 .part2 .part3
+{
+    width: 100%;
+    height: 100%;
+}
+.part .part1 .part2:hover
+{
+    transform: scale(1.06);
+}
+.field .part1 .part2 img{
+    width: 100%;
+    max-height: 100%;
+    transition: .3s;
+    object-fit: cover;
+}
+.field .ss 
+{
+    display: flex;
+    gap: 10px;
+   
+    
+
+}
+.field .ss  .part
+{
+    display: flex;
+    gap: 10px;
+    align-content:center;
+
+    
+
+}
+
+
+
+.field .part .part3{
+    width: 100%;
+    height: 100%;
+    
+}
+.field  .ss .part .part3 img{
+    flex: 1 1 5rem;
+    height: 250px;
+    border: 1px solid var(--black);
+    overflow: hidden;
+    border-radius: 8px;
+     position: relative; 
+     
+     
+     
+}
+.ss .part .part3
+{
+    width: 100%;
+    height: 100%;
+}
+.ss .part .part3:hover
+{
+    transform: scale(1.06);
+}
+.field .ss .part img{
+    width: 100%;
+    max-height: 100%;
+    transition: .3s;
+    object-fit: cover;
+}
+
+
+.nature .s1 
+{
+    display: flex;
+    gap: 10px;
+    /* background-image: url(/images/nature.jpg); */
+}
+
+
+
+
+
+.boat .boat1
+{
+    display: flex;
+    color: rgb(118, 116, 116);
+    justify-content: space-between;
+    padding:  0 20px;
+    background-color: rgb(235, 148, 175);
+    border: 2px solid rgb(235, 148, 175) ;
+    align-content: center;
+    
+
+}
+.boat .boat1 .sport a{
+    color: rgb(118, 116, 116);
+}
+.boat .boat1 .tv a{
+    color: rgb(118, 116, 116);
+}
+ .boat{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.boat1 .home:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+
+.boat1 .home:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .sport:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .icon:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .movies:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.boat1 .tv:hover
+{
+   transform: scale(1.06);
+   color: white;
+}
+.do 
+{
+    display: flex;
+    gap: 70px;
+    padding: 40px;
+    background-color: rgb(224, 190, 201);
+}
+.do .head .h
+{
+    padding: 15px ;
+    
+
+}.do .head2 .n
+{
+    padding: 15px;
+}
+.co .co1 {
+    padding: 40px;
+    /* display: flex; */
+    
+}
+
+.co .co1 .icon 
+{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    
+}
+.co1 .icon .i
+{
+padding: 10px;
+border: 1px solid grey;
+background-color: rgb(221, 201, 174);
+border-radius: 50%;
+
+
+}
+hr{
+    color: white;
+}
+.end 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.end .end1
+{
+    padding: 10px;
+}
+.end .end2
+{
+   padding-bottom: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
